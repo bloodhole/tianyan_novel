@@ -7,3 +7,17 @@
 
 脚本功能：
 在书本目录页添加个按钮，自动跳转到书本的txt下载页面。
+
+目测天眼看小说网站已经关闭（或许被404了)，本项目停止更新，日期：2020年5月3日。
+
+
+## Download Novels
+clone all novels：
+
+```shell
+git clone --depth=1 git@github.com:2niuhe/tianyan_novel.git
+```
+
+
+
+如果网站重新开放，麻烦在issue中提醒我。
