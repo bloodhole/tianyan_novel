@@ -50,7 +50,7 @@ logger.info('You can find this written in myLogs.log')
     
 
 
-def my_request(url, retry_time=5):
+def my_request(url, retry_time=6):
 
     i = 0
 
@@ -81,6 +81,8 @@ def my_request(url, retry_time=5):
                 logger.warning("多次尝试失败，休眠1024秒")
 
                 time.sleep(1024)
+            if i == 5:
+                time.sleep(3600*24*2)
 
     logger.error("Request Error, url:" + url)
 
