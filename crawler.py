@@ -498,7 +498,7 @@ if __name__ == "__main__":
                 download_book(book_info)
         push_remote()
         logger.info("END OF JOB,SLEEP A DAY")
-        time.sleep(3600*23)
+        time.sleep(3600*22)
 
 
 
