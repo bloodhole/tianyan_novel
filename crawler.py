@@ -82,7 +82,7 @@ def my_request(url, retry_time=6):
 
                 time.sleep(1024)
             if i == 5:
-                time.sleep(3600*24*2)
+                time.sleep(3600*2)
 
     logger.error("Request Error, url:" + url)
 
